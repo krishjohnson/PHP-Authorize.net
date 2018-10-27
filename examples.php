@@ -24,21 +24,21 @@ $objAuthorizeAPI = new AuthorizeAPI('2gEh8tX1B', '69W3eRt7sd7yU5pcR');// this is
 
 // Set customer's information
 $arrCustomerInfo = array();
-$arrCustomerInfo['firstname'] = 'Prashant';
-$arrCustomerInfo['lastname'] = 'Jethwa';
-$arrCustomerInfo['company_name'] = 'Code Bucket';
-$arrCustomerInfo['ad_street'] = 'Jodhpur Crossroad';
-$arrCustomerInfo['ad_city'] = 'Ahmedabad';
-$arrCustomerInfo['ad_state'] = 'Gujarat';
-$arrCustomerInfo['ad_zip'] = '380015';
+$arrCustomerInfo['firstname'] = 'Krish';
+$arrCustomerInfo['lastname'] = 'Johnson';
+$arrCustomerInfo['company_name'] = '100Utils';
+$arrCustomerInfo['ad_street'] = 'Krishna Nagar';
+$arrCustomerInfo['ad_city'] = 'Mumbai';
+$arrCustomerInfo['ad_state'] = 'Maharastra';
+$arrCustomerInfo['ad_zip'] = '250015';
 $arrCustomerInfo['ad_country'] = 'India';
-$arrCustomerInfo['ph_number'] = '123456791';
-$arrCustomerInfo['em_email'] = 'codebucket.co@gmail.com';
+$arrCustomerInfo['ph_number'] = '9856324758';
+$arrCustomerInfo['em_email'] = 'krish.johnson.85@gmail.com';
 
 $objAuthorizeAPI->setCustomerAddress($arrCustomerInfo);
 
 // ~~~~~~~~~~~~ ADD CREDIT CARD ~~~~~~~~~~~~~~~~~~~~~~ //
-$objAuthorizeAPI->setCreditCardParameters('370000000000002', '2019-12', '123');
+$objAuthorizeAPI->setCreditCardParameters('4111111111111111', '2023-10', '123');
 
 $arrCustomerAddCCResponse = $objAuthorizeAPI->addCustomerPaymentProfile(111,'cc');
 

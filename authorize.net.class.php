@@ -1,9 +1,9 @@
 <?php
 /*
  ----------------------------------------------------------------
- Author: Prashant Jethwa
+ Author: Krish Johnson
  Purpose: Create class for Authorize.net payment gateway api.
- Email: codebucket.co@gmail.com
+ Email: krish.johnson.85@gmail.com
  Last Modified on 19 May 2017
  -----------------------------------------------------------------
  
